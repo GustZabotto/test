@@ -62,7 +62,7 @@ Na camada de visualização, temos que as manipulações de dados feitas via SQL
 
 ![dash](https://user-images.githubusercontent.com/91633230/138911107-6ea146b5-f692-4528-9538-7e4362af9a6f.png)
 
-Acima contém um exemplo de dashboard, apresentando de forma geral informações pertinentes as tabelas de “BlackList” e “Depara”.
+Acima contém um exemplo de dashboard na plataforma, apresentando de forma geral, informações pertinentes as tabelas de “BlackList” e “Depara”. São cartões que mostram a quantidade total de E-mails, celulares e telefones enviados para tabela BlackList ou Depara. 
 
 ## 5. Complementos
 
