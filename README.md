@@ -73,6 +73,10 @@ Na camada de visualização, temos que as manipulações de dados feitas via SQL
 
 Acima contém um dashboard da plataforma, apresentando de forma geral, informações pertinentes as tabelas de “BlackList” e “Depara”. São cartões de uma amostra que mostram a quantidade total de E-mails, celulares e telefones enviados para tabela BlackList ou Depara. 
 
+![dash2](https://user-images.githubusercontent.com/91633230/138946894-564a346d-f703-4b0a-a188-7dfb6a79dae3.png)
+
+
+
 ## 5. Complementos
 
 ### Catálogo
