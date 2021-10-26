@@ -54,7 +54,14 @@ Padronização nos dados.
 
 ### BlackList e Depara
 
-O termo BlackList tem como ideia a criação de uma tabela geral na qual há inserção de dados não validos. Já o termo “Depara”, tende revisar os dados não validos, podendo assim, recuperar informações se possível. 
+As Blacklists (a tradução literal é “Lista Negra”) Tratam-se de tabelas que agrupam dados não validados, evitando então a inserção de dados irreais na camada TRUSTED. Segue abaixo um exemplo da “Blacklist”: 
+
+![black](https://user-images.githubusercontent.com/91633230/138929703-b29d3827-df6c-4a67-b0a2-b47151a91b53.png)
+
+Já o termo “Depara”, tem um algoritmo com a capacidade de identificar dados não validos, mas que exista a possibilidade de recuperação, devido ao um erro ortográfico, erro de digitação e entre outros. Segue abaixo um exemplo de um Depara sobre e-mails:  
+
+![depara](https://user-images.githubusercontent.com/91633230/138929721-b9576718-56e8-495d-b01c-79707576c9cb.png)
+
 
 ## 4. Visualizações de dados
 
