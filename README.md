@@ -24,7 +24,7 @@ O objetivo desse descritivo técnico tem como finalidade demonstrar os passos ut
 
 Para a ingestão full de dados na camada RAW foi utilizado a ferramenta Apache NiFi, software para automatizar o fluxo de dados entre sistemas de software. Essa ferramenta possui uma interface para criar, monitorar e controlar os fluxos de dados.
 
-Seguimos com a criação de três blocos para a ingestão da carga full para RAW. Sendo o bloco “Arquivos Excel” criado para captura de arquivos do Excel, “Arquivos CSV” criado para a captura de arquivos em CSV e “Ingestoes_RAW_Travelex” bloco que faz a união dos blocos anteriores e insere na camada. 
+Seguimos com a criação de três blocos para a ingestão da carga full para RAW. Sendo o bloco “Arquivos Excel” criado para captura de arquivos do Excel, “Arquivos CSV” criado para a captura de arquivos em CSV e “Ingestoes_RAW_Travelex” bloco que permite a conexão direta ao banco de dados podendo ser inseridas automaticamente em nosso ambiente. 
 
 ![image](https://user-images.githubusercontent.com/91633230/138886377-143f1781-731c-4433-a71a-f190574565b2.png)
 
