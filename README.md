@@ -20,7 +20,15 @@ O objetivo desse descritivo técnico tem como finalidade demonstrar os passos ut
 
 ## 2. Ingestões da dados
 
-Para a ingestão de dados na camada RAW foi utilizado a ferramenta Apache NiFi, software para automatizar o fluxo de dados entre sistemas de software. Na qual possui uma interface para criar, monitorar e controlar os fluxos de dados 
+Para a ingestão de dados na camada RAW foi utilizado a ferramenta Apache NiFi, software para automatizar o fluxo de dados entre sistemas de software. Essa ferramenta possui uma interface para criar, monitorar e controlar os fluxos de dados.
+
+Seguimos com a criação de três blocos para a ingestão da carga full para RAW. Sendo o bloco “Arquivos Excel” criado para captura de arquivos do Excel, “Arquivos CSV” criado para a captura de arquivos em CSV e “Ingestoes_RAW_Travelex” bloco que faz a união dos blocos anteriores e insere na camada. 
+
+![image](https://user-images.githubusercontent.com/91633230/138886377-143f1781-731c-4433-a71a-f190574565b2.png)
+
+Dentro do bloco “Ingestoes_RAW_Travelex” há dois fluxos, um deles para fazer a carga full da tabela tb_documento e a outro para fazer da tabela cubo clientes.
+
+![image (1)](https://user-images.githubusercontent.com/91633230/138887385-46186d92-de8e-4dbe-9554-86128d1344b0.png)
 
 ## 3. Tratamentos de dados
 
@@ -46,7 +54,7 @@ Padronização nos dados.
 
 ### BlackList e Depara
 
-O termo BlackList tem como ideia a criação de uma tabela geral na qual há inserção de dados não validos. Já o termo “Depara”, tende revisar os dados não validos, podendo assim, recuperar algumas informações.
+O termo BlackList tem como ideia a criação de uma tabela geral na qual há inserção de dados não validos. Já o termo “Depara”, tende revisar os dados não validos, podendo assim, recuperar informações se possível. 
 
 ## 4. Visualizações de dados
 
