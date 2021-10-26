@@ -58,7 +58,7 @@ O termo BlackList tem como ideia a criação de uma tabela geral na qual há ins
 
 ## 4. Visualizações de dados
 
-Na camada de visualização, temos que as manipulações de dados que são feitas via SQL usando DQL (Data Query Language) em outra funcionalidade da Semantix Data Plataform (SQL Lab). Sendo que ela permite a criação e edição de Charts (Gráficos), Datasets e Databases.
+Na camada de visualização, temos que as manipulações de dados são feitas via SQL usando DQL (Data Query Language) em outra funcionalidade da Semantix Data Plataform (SQL Lab). Sendo que ela permite a criação e edição de Charts (Gráficos), Datasets e Databases.
 
 ## 5. Complementos
 
