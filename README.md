@@ -14,7 +14,7 @@
 
 ## 1. Introdução
 
-O Semantix Data Plataform ou SDP, é uma plataforma que tem como oferecimento um produto para o trabalho e compreensão de dados. A partir de ferramentas implementadas, o SDP busca trabalhar com diversos conectores de bancos, com a possibilidade de ingestões, manuseamento, manipulações de dados e com visualizações para regra de negócio. Além disso, também proporciona controle de acesso, onde o responsável geral possa distribuir as informações por usuário.    
+O Semantix Data Plataform ou SDP, é uma plataforma que tem como oferecimento um produto para o trabalho e compreensão de dados. A partir de ferramentas implementadas, o SDP busca trabalhar com diversos conectores de bancos, com a possibilidade de ingestões, manuseamento, manipulações de dados e com visualizações para regra de negócio. Além disso, tudo isso em uma plataforma com controle de acessos e segurança.
 
 ![GIF_SDP_NOTEBOOK_03](https://user-images.githubusercontent.com/91633230/138770478-23e9046d-be95-4aaf-95dd-f10aae6c184f.gif)
 
@@ -46,6 +46,8 @@ São efetuados cálculos ou a implementação de uma lógica com a capacidade de
 - Validação de Telefone;
 - Validação de Nome;
 
+![validacao](https://user-images.githubusercontent.com/91633230/139102377-59a89053-80af-4582-a729-6b67b8debd07.png)
+
 ### Higienização 
 
 Padronização nos dados.
@@ -53,6 +55,9 @@ Padronização nos dados.
 - Remoção de caracteres especiais; 
 - Transformação dos campos em branco para “NULL”;
 - Remoção das duplicatas;
+
+![higienizacao](https://user-images.githubusercontent.com/91633230/139102678-4492a357-a04a-433d-84ad-6dc4b1e13ade.png)
+
 
 ### BlackList e Depara
 
