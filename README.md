@@ -34,7 +34,7 @@ Dentro do bloco "Ingestoes_RAW_Travelex" há dois fluxos, sendo um deles para fa
 
 ## 3. Tratamentos de dados
 
-Para os tratamentos de dados da camada RAW e a inserção para camada TRUSTED, temos as manipulações feitas com a utilização dos scripts python pela SandBox. Segue abaixo os blocos utilizados para execução desse tratamento. 
+Para os tratamentos de dados na camada RAW e a inserção para camada TRUSTED, temos as manipulações feitas com a utilização dos scripts python pela SandBox. Segue abaixo os blocos utilizados para execução desse tratamento. 
 
 ### Validações
 
