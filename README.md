@@ -80,7 +80,7 @@ Acima contém um dashboard da plataforma, apresentando de forma geral, informaç
 
 ![dash2](https://user-images.githubusercontent.com/91633230/138946894-564a346d-f703-4b0a-a188-7dfb6a79dae3.png)
 
-Segue outro exemplo de Dashboard, que contém gráficos sobre tipo de cadastro, tipo de documento, tipo de parceria com a corretora e situação do cliente com a corretora.  
+Segue outro exemplo de Dashboard, que contém gráficos ou tabelas que proporcionam a comparação da totalidade de cada item. Por exemplo, em tipo de documento, é possível verificar o total de RG, CPF e entre outros que foram cadastrados. Além do tipo de documento, a imagem apresenta tipo de cadastro, tipo de parceria com a corretora e situação do cliente com a corretora.
 
 ## 5. Complementos
 
