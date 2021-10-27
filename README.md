@@ -94,4 +94,4 @@ Para o controle de acesso, foi utilizado a ferramenta Apache Ranger, uma ferrame
 
 ### Ambientes separados
 
-Foram desenvolvidos dois ambientes, um para homologação e outro para produção. No nosso ambiente de homologação, estão contidos testes feitos em amostras com a finalidade de higienizações, tratamentos das tabelas e gráficos. Levando em conta, após as validações, foram transferidos para o ambiente de produção, na qual se passou utilizar a carga full.
+Foram desenvolvidos dois ambientes, um para homologação e outro para produção. No nosso ambiente de homologação, estão contidos testes feitos em amostras ocorrendo higienizações, tratamentos das tabelas e geração gráficos. Consequentemente, após as validações, foram transferidos para o ambiente de produção, na qual se passou utilizar a carga full.
