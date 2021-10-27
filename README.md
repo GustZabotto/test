@@ -14,7 +14,7 @@
 
 ## 1. Introdução
 
-A Semantix Data Plataform tem como proposta trabalhar com as seguintes ideias para ingestão e manipulação de dados. Chamada de “DataSources” fase que tende conectar os bancos de dados via Excel, Oracle, postgresql e entre outros. A fase “DataLoaders” consiste em um processo de três etapas sendo elas Raw Data, Trusted Data e Service Data na qual ocorre os tratamentos e manipulações de dados. Durante esse processo ocorre a fase “Data Lake”, tendo em vista a inclusão de um catálogo de dados. Por fim, o “DataSharing”, com criações de Dashboards com entendimento de regras de negócio. Segue abaixo um gif apresentando o processo.
+O Semantix Data Plataform ou SDP, é uma plataforma que tem como oferecimento um produto para o trabalho e compreensão de dados. A partir de ferramentas implementadas, o SDP busca trabalhar com diversos conectores de bancos, com a possibilidade de ingestões, manuseamento, manipulações de dados e com a visualização. Segue abaixo um gif apresentando o processo.  
 
 ![GIF_SDP_NOTEBOOK_03](https://user-images.githubusercontent.com/91633230/138770478-23e9046d-be95-4aaf-95dd-f10aae6c184f.gif)
 
