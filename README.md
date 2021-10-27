@@ -58,7 +58,8 @@ São efetuados cálculos ou a implementação de uma lógica com a capacidade de
 
 ![RG](https://user-images.githubusercontent.com/73028088/139148980-97f45621-f810-483c-b3c3-e89db86dcfa8.png)
 
-- Já a cubo_clientes:
+- Alguns exemplos da tabela cubo_clientes:
+
 - Validação de CEP;
 
 ![CEP](https://user-images.githubusercontent.com/73028088/139148623-9b33dc85-d0b6-445e-ae31-48465a9db490.png)
@@ -74,14 +75,6 @@ São efetuados cálculos ou a implementação de uma lógica com a capacidade de
 - Validação de Telefones Estrangeiros;
 
 ![TEL_EST](https://user-images.githubusercontent.com/73028088/139149300-b2651aad-893b-41e7-9ba8-7f6be20ea641.png)
-
-- Validação de Nome;
-
-![NOME](https://user-images.githubusercontent.com/73028088/139149351-fe083a0e-e738-476f-b841-4923d9200e5c.png)
-
-- Validação Data de Nascimento;
-
-![DATA_NASCIMENTO](https://user-images.githubusercontent.com/73028088/139149465-fef0c68b-cbeb-4bf9-a5c0-7db6b73d7741.png)
 
 
 ### Higienização 
@@ -114,6 +107,7 @@ Padronização nos dados.
 ![RG_HIG](https://user-images.githubusercontent.com/73028088/139150843-f00d7176-e45b-43fc-b9e8-56c58c8307f3.png)
 
 - Alguns exemplos da tabela cubo_clientes:
+
 - Função que faz o tratamento do CEP com a função lambda;
 
 ![CEP_HIG](https://user-images.githubusercontent.com/73028088/139151129-1cf6bbc9-f225-4f53-9d70-5052a18429b2.png)
