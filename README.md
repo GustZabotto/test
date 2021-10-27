@@ -93,3 +93,5 @@ Foi escolhido o DataHub na parte de dicionário de dados, uma ferramenta open-so
 Para o controle de acesso, foi utilizado a ferramenta Apache Ranger, uma ferramenta de código aberto na qual é possível habilitar, monitorar e gerenciar a segurança de dados.
 
 ### Ambientes separados
+
+Foram desenvolvidos dois ambientes, um para homologação e outro para produção. No nosso ambiente de homologação, estão contidos testes feitos em amostras com a finalidade de higienizações, tratamentos das tabelas e gráficos. Levando em conta, após as validações, foram transferidos para o ambiente de produção, na qual se passou utilizar a carga full.
