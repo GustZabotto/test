@@ -18,7 +18,7 @@ A Semantix Data Plataform tem como proposta trabalhar com as seguintes ideias pa
 
 ![GIF_SDP_NOTEBOOK_03](https://user-images.githubusercontent.com/91633230/138770478-23e9046d-be95-4aaf-95dd-f10aae6c184f.gif)
 
-O objetivo desse descritivo técnico tem como finalidade demonstrar os passos utilizados para o desenvolvimento do projeto, sendo composto por três etapas. Sendo a primeira etapa a ingestão de dados, na qual foi utilizado o Apache NiFi para captura de dados para camada RAW. A segunda, o tratamento de dados constituído por uma serie de validações com scripts python, que foram feitos em uma funcionalidade da Semantix Data Plataform (SandBox) ingeridos na camada TRUSTED. Para a próxima etapa temos a visualização de dados que após as manipulações, tratamentos da base e com o entendimento do negócio, temos as criações de Charts (Gráficos) que foram adicionados em um DashBoard (Painel resumo).
+O objetivo desse descritivo técnico tem como finalidade demonstrar os passos utilizados para o desenvolvimento do projeto, sendo composto por algumas etapas. Sendo a primeira etapa a ingestão de dados, na qual foi utilizado o Apache NiFi para captura de dados para camada RAW. A segunda, o tratamento de dados constituído por uma série de validações com scripts python, que foram feitos em uma funcionalidade da Semantix Data Plataform (SandBox) ingeridos na camada TRUSTED. Para a próxima etapa temos a visualização de dados que após as manipulações, tratamentos da base e com o entendimento do negócio, temos as criações de Charts (Gráficos) obtidos da camada SERVICE que foram adicionados em um DashBoard (Painel resumo).
 
 ## 2. Ingestões de dados
 
@@ -28,7 +28,7 @@ Seguimos com a criação de três blocos para a ingestão da carga full para RAW
 
 ![image](https://user-images.githubusercontent.com/91633230/138886377-143f1781-731c-4433-a71a-f190574565b2.png)
 
-Dentro do bloco “Ingestoes_RAW_Travelex” há dois fluxos, um deles para fazer a carga full da tabela tb_documento e a outro para fazer a carga full da tabela cubo clientes.
+Dentro dos blocos há dois fluxos, sendo um deles para fazer a carga full da tabela tb_documento e a outro para fazer a carga full da tabela cubo clientes.
 
 ![image (1)](https://user-images.githubusercontent.com/91633230/138887385-46186d92-de8e-4dbe-9554-86128d1344b0.png)
 
@@ -71,7 +71,7 @@ Na camada de visualização, temos que as manipulações de dados feitas via SQL
 
 ![dash](https://user-images.githubusercontent.com/91633230/138911107-6ea146b5-f692-4528-9538-7e4362af9a6f.png)
 
-Acima contém um dashboard da plataforma, apresentando de forma geral, informações pertinentes as tabelas de “BlackList” e “Depara”. São cartões de uma amostra que mostram a quantidade total de E-mails, celulares e telefones enviados para tabela BlackList ou Depara. Segue outro exemplo de Dashboard, que contém gráficos sobre tipo de cadastro, tipo de documento, tipo de parceria com o corretora e situação do cliente com a corretora.  
+Acima contém um dashboard da plataforma, apresentando de forma geral, informações pertinentes as tabelas de “BlackList” e “Depara”. São cartões de uma amostra que mostram a quantidade total de E-mails, celulares e telefones enviados para tabela BlackList ou Depara. Segue outro exemplo de Dashboard, que contém gráficos sobre tipo de cadastro, tipo de documento, tipo de parceria com a corretora e situação do cliente com a corretora.  
 
 ![dash2](https://user-images.githubusercontent.com/91633230/138946894-564a346d-f703-4b0a-a188-7dfb6a79dae3.png)
 
