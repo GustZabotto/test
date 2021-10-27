@@ -71,7 +71,7 @@ São efetuados cálculos ou a implementação de uma lógica com a capacidade de
 
 ![TEL_BR](https://user-images.githubusercontent.com/73028088/139149222-fad8df8b-345a-4bc3-ba5b-397595613b39.png)
 
--Validação de Telefones Estrangeiros;
+- Validação de Telefones Estrangeiros;
 
 ![TEL_EST](https://user-images.githubusercontent.com/73028088/139149300-b2651aad-893b-41e7-9ba8-7f6be20ea641.png)
 
