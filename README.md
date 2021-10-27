@@ -34,7 +34,7 @@ Dentro do bloco "Ingestoes_RAW_Travelex" há dois fluxos, sendo um deles para fa
 
 ## 3. Tratamentos de dados
 
-Para os tratamentos de dados na camada RAW e a inserção para camada TRUSTED, temos as manipulações feitas com a utilização dos scripts python pela SandBox. Segue abaixo os blocos utilizados para execução desse tratamento. 
+Para os tratamentos de dados na camada RAW e a inserção para camada TRUSTED, temos as manipulações feitas com a utilização dos scripts Python na SandBox. Visto que na mesma, os scripts foram fragmentados em duas páginas no Jupyter, com cada página dedicada para determinada tabela. Nas bibliotecas, usamos validate_docbr e pycep-correios para validação de CEP, CPF e CNPJ, sqlalchemy para conexão no banco e manipulação dos dados juntamente com pandas sendo uma das mais utilizadas por sua completude baseando-se em data frame e manipulações, por fim, algumas bibliotecas de datetime, para validações de datas de nascimento e idade. Segue abaixo os blocos utilizados para execução desse tratamento.  
 
 ### Validações
 
