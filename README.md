@@ -89,4 +89,7 @@ Acima contém um dashboard da plataforma, apresentando de forma geral, informaç
 Foi escolhido o DataHub na parte de dicionário de dados, uma ferramenta open-source para dados estruturados em que terá diversos features na plataforma. Nela será possível as verificações das descrições das tabelas e dos gráficos para um maior entendimento. Visto que, é uma ferramenta intuitiva, viabilizando uma procura de grande facilidade que são feitas por tags até a modificação de alguma coluna caso necessário.
 
 ### Controle de acessos
+
+Para o controle de acesso, foi utilizado a ferramenta Apache Ranger, uma ferramenta de código aberto na qual é possível habilitar, monitorar e gerenciar a segurança de dados.
+
 ### Ambientes separados
