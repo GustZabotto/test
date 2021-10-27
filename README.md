@@ -28,7 +28,7 @@ Seguimos com a criação de três blocos para a ingestão da carga full para RAW
 
 ![image](https://user-images.githubusercontent.com/91633230/138886377-143f1781-731c-4433-a71a-f190574565b2.png)
 
-Dentro dos blocos há dois fluxos, sendo um deles para fazer a carga full da tabela tb_documento e a outro para fazer a carga full da tabela cubo clientes.
+Dentro do bloco "Ingestoes_RAW_Travelex" há dois fluxos, sendo um deles para fazer a carga full da tabela tb_documento e a outro para fazer a carga full da tabela cubo clientes.
 
 ![image (1)](https://user-images.githubusercontent.com/91633230/138887385-46186d92-de8e-4dbe-9554-86128d1344b0.png)
 
