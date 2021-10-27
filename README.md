@@ -56,7 +56,7 @@ Padronização nos dados.
 
 ### BlackList e Depara
 
-As Blacklists (a tradução literal é “Lista Negra”) tratam-se de tabelas que agrupam dados não validados, evitando então a inserção de dados irreais na camada SERVICE. Segue abaixo alguns exemplos sobre e-mails da tabela “Blacklist”: 
+As Blacklists (a tradução literal é “Lista Negra”) trata-se de tabelas que agrupam dados não validados, evitando então a inserção de dados irreais na camada SERVICE. Segue abaixo alguns exemplos sobre e-mails da tabela “Blacklist”: 
 
 ![black](https://user-images.githubusercontent.com/91633230/138929703-b29d3827-df6c-4a67-b0a2-b47151a91b53.png)
 
