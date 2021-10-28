@@ -43,7 +43,7 @@ Para tabelas no formato visualização (VIEW):
 
 Para colunas em transformações personalizadas (VIEW):
 
-- .{nome}_new
+- {nome}_new
 
 ** Observação: Jobs não disponíveis 
 
