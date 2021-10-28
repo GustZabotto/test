@@ -27,23 +27,23 @@ Como o processo se desenvolve em camadas, sendo elas RAW, TRUSTED, SERVICE e a V
 
 Para tabelas no formato original (RAW):
 
-- raw.(nome)_tabela_original 
+- raw.{nome}_tabela_original 
 
 Para tabelas no formato higienizadas (TRUSTED):
 
-- trusted.(nome)_hig
+- trusted.{nome}_hig
 
 Para tabelas no formato final refinada (SERVICE):
 
-- service.(nome)_hig
+- service.{nome}_hig
 
 Para tabelas no formato visualização (VIEW):
 
-- service.(nome)_view
+- service.{nome}_view
 
 Para colunas em transformações personalizadas (VIEW):
 
-- .(nome)_new
+- .{nome}_new
 
 ** Observação: Jobs não disponíveis 
 
