@@ -7,10 +7,11 @@
 ### Sumário:
 
 1. Introdução
-2. Ingestões da dados
-3. Tratamentos de dados
-4. Visualizações de dados
-5. Complementos
+2. Nomenclatura
+3. Ingestões da dados
+4. Tratamentos de dados
+5. Visualizações de dados
+6. Complementos
 
 ## 1. Introdução
 
@@ -20,7 +21,34 @@ O Semantix Data Plataform ou SDP, é uma plataforma que tem como oferecimento um
 
 O objetivo desse descritivo técnico tem como finalidade demonstrar os passos utilizados para o desenvolvimento do projeto, sendo composto por algumas etapas. Sendo a primeira etapa a ingestão de dados, na qual foi utilizado o Apache NiFi para captura de dados para camada RAW. A segunda, o tratamento de dados constituído por uma série de validações com scripts python, que foram feitos em uma funcionalidade da Semantix Data Plataform (SandBox) ingeridos na camada TRUSTED. Para a próxima etapa temos a visualização de dados que após as manipulações, tratamentos da base e com o entendimento do negócio, temos as criações de Charts (Gráficos) obtidos da camada SERVICE que foram adicionados em um DashBoard (Painel resumo).
 
-## 2. Ingestões de dados
+## 2. Nomenclatura
+
+Como o processo se desenvolve em camadas, sendo elas RAW, TRUSTED, SERVICE e a VIEW. Foram adicionadas nomenclaturas padrões para a identificação de cada uma na plataforma.
+
+Para tabelas no formato original (RAW):
+
+- raw.(nome)_tabela_original 
+
+Para tabelas no formato higienizadas (TRUSTED):
+
+- trusted.(nome)_hig
+
+Para tabelas no formato final refinada (SERVICE):
+
+- service.(nome)_hig
+
+Para tabelas no formato visualização (VIEW):
+
+- service.(nome)_view
+
+Para colunas em transformações personalizadas (VIEW):
+
+- .(nome)_new
+
+** Observação: Jobs não disponíveis 
+
+
+## 3. Ingestões de dados
 
 ### Ingestão pelo Apache NiFi
 
@@ -38,7 +66,7 @@ Dentro do bloco "Ingestoes_RAW_Travelex" há dois fluxos, sendo um deles para fa
 
 Contudo, apesar da utilização da ferramenta Apache NiFi para ingestão, existe a opção de ser feito pela própria plataforma. Entretanto, essa funcionalidade está temporariamente desabilitada.
 
-## 3. Tratamentos de dados
+## 4. Tratamentos de dados
 
 Para os tratamentos de dados na camada RAW e a inserção para camada TRUSTED, temos as manipulações feitas com a utilização dos scripts Python na SandBox. Visto que na mesma, os scripts foram fragmentados em duas páginas no Jupyter, com cada página dedicada para determinada tabela. Nas bibliotecas, usamos validate_docbr e pycep-correios para validação de CEP, CPF e CNPJ, sqlalchemy para conexão no banco e manipulação dos dados juntamente com pandas sendo uma das mais utilizadas por sua completude baseando-se em data frame e manipulações, por fim, foram adicionadas algumas bibliotecas de datetime, para validações de datas de nascimento e idade. Segue abaixo os blocos utilizados para execução desse tratamento.   
 
@@ -130,7 +158,7 @@ Já o termo “Depara”, tem um algoritmo com a capacidade de identificar dados
 ![depara](https://user-images.githubusercontent.com/91633230/138929721-b9576718-56e8-495d-b01c-79707576c9cb.png)
 
 
-## 4. Visualizações de dados
+## 5. Visualizações de dados
 
 Na camada de visualização, temos que as manipulações de dados feitas via SQL usando DQL (Data Query Language) em outra funcionalidade da Semantix Data Plataform (SQL Lab). Sendo que ela permite a criação e edição de Charts (Gráficos), Datasets e Databases. 
 
@@ -142,7 +170,7 @@ Acima contém um dashboard da plataforma, apresentando de forma geral, informaç
 
 Segue outro exemplo de Dashboard, que contém gráficos ou tabelas que proporcionam a comparação da totalidade de cada item. Por exemplo, em tipo de documento, é possível verificar o total de RG, CPF e entre outros que foram cadastrados. Além do tipo de documento, a imagem apresenta tipo de cadastro, tipo de parceria com a corretora e situação do cliente com a corretora.
 
-## 5. Complementos
+## 6. Complementos
 
 ### Catálogo
 
