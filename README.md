@@ -83,9 +83,12 @@ Dentro do bloco "Ingestoes_RAW_Travelex" há dois fluxos, sendo um deles para fa
 
 ![image (1)](https://user-images.githubusercontent.com/91633230/138887385-46186d92-de8e-4dbe-9554-86128d1344b0.png)
 
-### Ingestão pelo SDP
+### Ingestão pelo SDP (PIPELINE)
 
-Contudo, apesar da utilização da ferramenta Apache NiFi para ingestão, existe a opção de ser feito pela própria plataforma. Entretanto, essa funcionalidade está temporariamente desabilitada.
+Contudo, apesar da utilização da ferramenta Apache NiFi para ingestão, existe a opção de ser feito pela própria plataforma. Entretanto, essa funcionalidade está temporariamente desabilitada para tabelas já inseridas e caso necessário o PIPELINE pode ser usadas para o primeira carga de uma nova tabelas, pois futuramente temos ele funcionado para cargas deltas a partir de um data de controle ou identificador (ID).
+
+<img width="960" alt="pipe" src="https://user-images.githubusercontent.com/73028088/139460429-5cdd909b-bb6d-4f78-8b6a-e3a15fda92cb.PNG">
+
 
 ## 4. Tratamentos de dados
 
