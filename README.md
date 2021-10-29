@@ -15,11 +15,11 @@
 
 ## 1. Introdução
 
-O Semantix Data Plataform ou SDP, é uma plataforma que tem como oferecimento um produto para o trabalho e compreensão de dados. A partir de ferramentas implementadas, o SDP busca trabalhar com diversos conectores de bancos, com a possibilidade de ingestões, manuseamento, manipulações de dados e com visualizações para regras de negócio. Além disso, tudo isso em uma plataforma com controle de acessos e segurança.
+O Semantix Data Plataform (SDP), é uma plataforma que tem como oferecimento um produto para o trabalho e compreensão de dados. A partir de ferramentas implementadas, o SDP busca trabalhar com diversos conectores de bancos, com a possibilidade de ingestões, manuseamento, manipulações de dados e com visualizações para regras de negócio. Além disso, tudo isso em uma plataforma com controle de acessos e segurança.
 
 ![GIF_SDP_NOTEBOOK_03](https://user-images.githubusercontent.com/91633230/138770478-23e9046d-be95-4aaf-95dd-f10aae6c184f.gif)
 
-O objetivo desse descritivo técnico tem como finalidade demonstrar os passos utilizados para o desenvolvimento do projeto, sendo composto por algumas etapas. Sendo a primeira etapa a ingestão de dados, na qual foi utilizado o Apache NiFi para captura de dados para camada RAW. A segunda, o tratamento de dados constituído por uma série de validações com scripts python, que foram feitos em uma funcionalidade da Semantix Data Plataform (SandBox) ingeridos na camada TRUSTED. Para a próxima etapa temos a visualização de dados que após as manipulações, tratamentos da base e com o entendimento do negócio, temos as criações de Charts (Gráficos) obtidos da camada SERVICE que foram adicionados em um DashBoard (Painel resumo).
+O objetivo desse descritivo técnico tem como finalidade demonstrar os passos utilizados para o desenvolvimento do projeto, sendo composto por algumas etapas. Sendo a primeira etapa a ingestão de dados, na qual foi utilizado o Apache NiFi para captura de dados na camada RAW. A segunda, o tratamento de dados constituído por uma série de validações com scripts python, que foram feitos em uma funcionalidade da Semantix Data Plataform (SandBox) e em seguida ingeridos na camada TRUSTED. Para a próxima etapa, a visualização de dados que após as manipulações, tratamentos da base e com o entendimento do negócio, temos as criações de Charts (Gráficos) obtidos da camada SERVICE que foram adicionados em um DashBoard (Painel resumo).
 
 ## 2. Nomenclatura
 
@@ -181,7 +181,7 @@ Já o termo “Depara”, tem um algoritmo com a capacidade de identificar dados
 
 ## 5. Visualizações de dados
 
-Na camada de visualização, temos que as manipulações de dados feitas via SQL usando DQL (Data Query Language) em outra funcionalidade da Semantix Data Plataform (SQL Lab). Sendo que ela permite a criação e edição de Charts (Gráficos), Datasets e Databases. 
+Na camada de visualização, temos que as manipulações de dados feitas via SQL usando DQL (Data Query Language) em outra funcionalidade da Semantix Data Plataform (SQL Lab). Sendo que temos também na aba visualização a criação e edição de Charts (Gráficos), Datasets e Databases. 
 
 ![dash](https://user-images.githubusercontent.com/91633230/138911107-6ea146b5-f692-4528-9538-7e4362af9a6f.png)
 
@@ -195,7 +195,7 @@ Segue outro exemplo de Dashboard, que contém gráficos ou tabelas que proporcio
 
 ### Catálogo
 
-Foi escolhido o DataHub na parte de dicionário de dados, uma ferramenta open-source para dados estruturados em que terá diversos features na plataforma. Nela será possível as verificações das descrições das tabelas e dos gráficos para um maior entendimento. Visto que, é uma ferramenta intuitiva, viabilizando uma procura de grande facilidade que são feitas por tags até a modificação de alguma coluna caso necessário.
+Foi escolhido o DataHub na parte de dicionário de dados, uma ferramenta open-source para dados estruturados em que terá diversos features na plataforma. Nela será possível as verificações das descrições das tabelas e dos gráficos para um maior entendimento. Visto que, é uma ferramenta intuitiva, viabilizando uma procura de grande facilidade que são feitas por tags até a modificação de descrição alguma coluna caso necessário.
 
 ### Controle de acessos
 
