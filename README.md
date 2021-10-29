@@ -45,7 +45,28 @@ Para colunas em transformações personalizadas (VIEW):
 
 - {nome}_new
 
-** Observação: Jobs não disponíveis 
+### Segue abaixo as nomenclaturas para JOBS
+
+Para jobs no formato original (RAW):
+
+- Exec_raw.{nome}_tabela_original
+
+Para jobs no formato higienizadas (TRUSTED):
+
+- Exec_trusted.{nome}_hig
+
+Para jobs no formato final refinada (SERVICE):
+
+- Exec_service.{nome}_hig
+
+Para jobs no formato visualização (VIEW):
+
+- Exec_service.{nome}_view
+
+Para colunas em transformações personalizadas (VIEW):
+
+- Exec.{nome}_new
+
 
 
 ## 3. Ingestões de dados
