@@ -14,7 +14,6 @@
 6. Complementos
 
 ## 1. Introdução
-![241393462_946855022572624_3506906170183380760_n](https://user-images.githubusercontent.com/73028088/142631274-ac286722-9d22-4ab4-9ddb-5f9857db685a.jpg)
 
 O Semantix Data Plataform (SDP), é uma plataforma que tem como oferecimento um produto para o trabalho e compreensão de dados. A partir de ferramentas implementadas, o SDP busca trabalhar com diversos conectores de bancos, com a possibilidade de ingestões, manuseamento, manipulações de dados e com visualizações para regras de negócio. Além disso, tudo isso em uma plataforma com controle de acessos e segurança.
 
